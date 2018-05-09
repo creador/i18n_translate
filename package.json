@@ -1,0 +1,30 @@
+{
+  "name": "@npm.creador/i18n_translate",
+  "version": "1.0.3",
+  "description": "Translates the given i18n.ini file",
+  "main": "i18n_translate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creador/i18n_translate.git"
+  },
+  "keywords": [
+    "creador",
+    "translate",
+    "i18n",
+    "dsl",
+    "open"
+  ],
+  "bin": {
+    "i18n_translate": "./i18n_translate.js"
+  },
+  "author": "Pablo Schaffner",
+  "license": "MIT",
+  "homepage": "https://github.com/creador/i18n_translate#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^1.1.0",
+    "colors": "^1.2.4",
+    "ini": "^1.3.5",
+    "shelljs": "^0.8.1",
+    "wait.for": "^0.6.6"
+  }
+}
